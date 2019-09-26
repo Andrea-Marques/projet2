@@ -5,32 +5,43 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     	<link rel="stylesheet" href="css/bootstrap.css">
        	<link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Alex+Brush&display=swap" rel="stylesheet">
   	</head>
 
     <body>
-    	<header class="container"> <!--entete photo+nom-->
+    	
+        <header> <!--entete photo+nom-->
+            <div class="container">
     		<div class="row">
-    			<div class="col-4"><img src="images/photo.png" class="photo" height=220px width=206px /></div>
-    			<div class="col">
+    			<div class="col-4 photo"><img src="images/photo.png" height=220px width=206px /></div>
+    			<div class="col-8 titre">
     				<div class="row">
-    					<div class="col"><h1><strong>Andréa</strong> Marques<h1></div>
+    					<div class="col"><h1><strong>Andréa</strong> Marques</h1></div>
     				</div>
     				<div class="row">
-    					<div class="col"><p class="profession">Intégrateur Web</p></div>
+    					<div class="col"><p class="profession">Intégrateur Web<hr class="bordure"></p></div>
     				</div>
-    			</div>
+                </div>
     		</div>
-    	</header>
+            </div>
+        </header>
 
     	<section class="container"><!--contact+formations-->
     		<div class="row">
-    			<div class="col-4"><p class="aside">Contact</p></div><!--aside-->
-    			<div class="col-1"><i class="fas fa-graduation-cap"></i></div>
-    			<div class="col"><h2>Formation</h2></div>
+    			<div class="col-4 aside"><p>CONTACT</p></div><!--aside-->
+                <div class="col-8">
+                    <div class="row">
+    			        <div class="col-2"><i class="fas fa-graduation-cap"></i></div>
+    			        <div class="col-10 intitulé"><h2>FORMATIONS</h2></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 separation"><hr></div>
+                    </div>
+                </div>
     		</div> 
     		<div class="row">
-    			<div class="col-4"><!--aside contact-->
-    				<p>Adresse<br />
+    			<div class="col-4 aside2"><!--aside contact-->
+    				<p class="propos">Adresse<br />
     				4 rue François Couperin<br />
     				95320 Saint-Leu-La-Forêt</p>
     				<p>Téléphone<br />
@@ -45,41 +56,46 @@
 
     			<div class="col-8">
     				<div class="row">
-    					<div class="col-4"><!--date 1-->
-    						<p>Depuis Aout 2019<br />
+    					<div class="col-1"><!--date 1-->
+    						<i class="far fa-dot-circle"></i>
+                        </div>
+                        <div class="col-3"><p class="dates">Depuis Aout 2019<br />
     						E-learning</p>
     					</div>
     					<div class="col"><!--ecole 1-->
     						<h3>OpenClassrooms</h3>
-    						<p>Prep'Web Intégrateur Web<br />
+    						<p><mark>Prep'Web Intégrateur Web</mark><br />
     						HTML5, CSS3, Grilles Bootstrap, Git, GitHub, Découpage de maquettes, veille informationnelle.</p>
     					</div>
     				</div>
 
     				<div class="row">
-    					<div class="col-4"><!--date 2-->
-    						<p>2011</p>
+                        <div class="col-1"><i class="fas fa-circle"></i></div>
+    					<div class="col-3"><!--date 2-->
+    						<p class="dates">2011<br />E-learning</p>
     					</div>
     					<div class="col">
     						<h3>Cuture et Formation</h3>
-    						<p>Certificat de Secrétariat Médical<br />
+    						<p>Certificat de Secrétariat Médical</p>
 						</div>			
     				</div>
 
     				<div class="row">
-    					<div class="col-4"><!--date 3-->
-    						<p>2008</p>
+                        <div class="col-1"><i class="fas fa-circle"></i></div>
+    					<div class="col-3"><!--date 3-->
+    						<p class="dates">2008<br />Lyon</p>
     					</div>
     					<div class="col">
-    						<h3>Université Jean Moulin Lyon 3</h3>
-    						<p>2e année Langues étrangères appliquées<br />
+    						<h3>Université Jean Moulin</h3>
+    						<p><mark>2e année Langues étrangères appliquées</mark><br />
 							Mineure Economie Droit, Géopolitique Anglaise et Espagnole, traduction de textes.</p>	
 						</div>			
     				</div>
 
     				<div class="row">
-    					<div class="col-4"><!--date 4-->
-    						<p>2006</p>
+                        <div class="col-1"><i class="fas fa-circle"></i></div>
+    					<div class="col-3"><!--date 4-->
+    						<p class="dates">2006<br />Lyon</p>
     					</div>
     					<div class="col">
     						<h3>Lycée Juliette Récamier</h3>
@@ -89,31 +105,40 @@
     				</div>
     			</div>
     		</div>
-    	</section>
+        </section>
 
     	<section class="container"><!--a propos+expérience pro-->
             <div class="row">
-                <div class="col-4"><p class="aside">A mon propos</p></div>
-                <div class="col-1"><i class="fas fa-briefcase"></i></div>
-                <div class="col"><h2>Expérience Professionelle</h2></div>
+                <div class="col-4 aside"><p>A MON PROPOS</p></div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-2"><i class="fas fa-briefcase"></i></div>
+                        <div class="col intitulé"><h2>Expérience Professionelle</h2></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 separation"><hr></div>
+                    </div>
+                </div>
             </div>
             <div class="row">
-                <div class="col-4"><!--aside a propos-->
-                <p>Après plusieurs années passées dans la vente en grande surface et la mise en valeur de rayonnages, j'ai eu envie de me lancer dans un nouveau projet d'avenir et de me reconvertir dans un domaine qui me plait depuis le lycée : l'informatique.
+                <div class="col-4 aside2"><!--aside a propos-->
+                <p class="propos">Après plusieurs années passées dans la vente en grande surface et la mise en valeur de rayonnages, j'ai eu envie de me lancer dans un nouveau projet d'avenir et de me reconvertir dans un domaine qui me plait depuis le lycée : l'informatique.
                 Forte d'un bon bagage de relationnel clientèle et de très bon reste en langues étrangères, notamment l'anglais, j'ai ainsi la possibilité d'étoffer le champs de mes connaissances et de mettre a disposition de mes possibles employeurs mon apprentissage en développement web et mes connaissances acquises dans le domaine commercial.</p>
                 </div>
 
-                <div class="col">
+                <div class="col-8">
                      <div class="row">
-                        <div class="col-4">
-                            <ul><li>2015 - 2018<br />Le Pecq</li></ul>
+                        <div class="col-1"><i class="fas fa-circle"></i></div>
+                        <div class="col-3">
+                            <p class="dates">2015 - 2018<br />Le Pecq</p>
                         </div>
                         <div class="col"><h3>Monoprix</h3><p>Employée libre service textile/parfumerie<br />Mise en rayon des marchandise, mise en valeur des linéaires, commandes de marchandises, relation et conseil clientèle, gestion d'une équipe, préparation d'évenements (type soldes), formation continue en vue de passer l'échelon suivant.</p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-4">
-                            <ul><li>2011 -2014<br />Craponne</li></ul>
+                        <div class="col-1"><i class="fas fa-circle"></i></div>
+                        <div class="col-3">
+                            <p class="dates">2011 -2014<br />Craponne</p>
                         </div>
                         <div class="col"><h3>Mc Donald's</h3><p>Equipier Polyvalent<br />Prise de commande, préparation de celles-ci, Relation clientèle, Accueil, Entretien des locaux</p>
                         </div>
@@ -122,17 +147,24 @@
 
     	<footer class="container"><!--loisirs+recommandation-->
             <div class="row">
-                <div class="col-4"><p class="aside">Loisirs</p></div>
-                <div class="col-1"><i class="fas fa-pencil-alt"></i></div>
-                <div class ="col"><h2>Recommandations</h2></div>
+                <div class="col-4 aside"><p>LOISIRS</p></div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-2"><i class="fas fa-pencil-alt"></i></div>
+                        <div class ="col intitulé"><h2>Recommandations</h2></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 separation"><hr></div>
+                    </div>
+                </div>
             </div>
             <div class="row">
-                <div class="col-4"><i class="fas fa-book"></i><i class="fas fa-gamepad"></i><i class="fas fa-utensil-spoon"></i></div><!--aside loisirs-->
-                <div class="col-3"><h3>Nadine Roeun</h3>
+                <div class="col-4 aside2"><i class="fas fa-book loisirs"></i><i class="fas fa-gamepad loisirs"></i><i class="fas fa-utensil-spoon loisirs"></i></div><!--aside loisirs-->
+                <div class="col-3 white"><p class="reco">Nadine Roeun</p>
                 </div>
-                <div class="col"><p>Responsable secteur parfumerie, textile, maison-loisirs au Monoprix Le Pecq<br />Téléphone : 01.39.04.10.80</p></div>
+                <div class="col white"><p>Responsable secteur parfumerie, textile, maison-loisirs au Monoprix Le Pecq<br />Téléphone : 01.39.04.10.80</p></div>
                 <script src="https://kit.fontawesome.com/ae150ae0c1.js" crossorigin="anonymous"></script>
     	</footer>
-
+    
    	</body>
 </html>

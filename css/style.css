@@ -1,0 +1,186 @@
+body 
+{
+	font-family : Verdana;
+	background-color: #37474F;
+}
+
+.col-auto 
+{
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: none;
+}
+
+[class*="col"], footer, aside 
+{
+  background-color: transparent;
+  line-height: 10px;
+}
+
+#container
+{
+	max-width: 940px;
+}
+
+.photo
+{
+	padding-top: 65px;
+	padding-bottom: 45px;
+	line-height: 330px;
+	background-color: #5C6BC0;
+	text-align: center;
+}
+
+.titre
+{
+	background-color: white;
+}
+
+.profession
+{
+	padding-left: 15%;
+	font-weight: bold;
+	line-height: 3px;
+	font-size: 1em;
+}
+
+.bordure
+{
+	margin-left: 15%;
+	width: 40px;
+	border-width: 2px;
+	border-color: #5C6BC0;
+}
+
+.separation
+{
+	background-color: white;
+	line-height: 1px;
+}
+
+.aside /*intitulés aside*/
+{
+	text-align: center;
+	font-size: 2.5em;
+	color: #5C6BC0;
+	background-color: #212121;
+	padding-top: 20px;
+	line-height: 60px;
+
+}
+
+.aside2 /*bloc aside bleus*/
+{
+	background-color: #5C6BC0;
+}
+
+
+
+.propos
+{
+	margin-top: 25px;
+}
+
+.col-2
+{
+	background-color: white;
+}
+
+.col-8
+{
+	background-color: white;
+}
+
+.intitulé
+{
+	background-color: white;
+	padding-top: 15px;
+}
+
+.loisirs
+{
+	color: #212121;
+	padding-left: 17%;
+	padding-top: 25px;
+}
+
+.dates
+{
+	margin-top: 0px;
+}
+
+.far /*icone de puce actuelle Font Awesome*/
+{
+	font-size: 15px;
+	padding-left: 15px;
+}
+
+.fa-circle /*icone de puce Font Awesome*/
+{
+	font-size: 10px;
+	padding-left: 15px;
+}
+
+.white
+{
+	background-color: white;
+}
+
+.reco
+{
+	font-size: 1.3em;
+}
+
+i /*scripts font awesome*/
+{
+	padding-top: 8px;
+	font-size: 35px;
+	color: #5C6BC0;
+}
+
+strong
+{
+	color: #5C6BC0;
+}
+
+h1
+{
+	padding-top: 160px;
+	padding-left: 15%;
+	font-family: 'Alex Brush', cursive;
+	font-size: 4em; 
+}
+
+h2
+{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+
+
+hr
+{
+	border-color: #5C6BC0; 
+	border-width: 2px;
+}
+
+p
+{
+	line-height: 20px;
+	font-size: 0.8em;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 15px;
+	
+}
+
+mark
+{
+	font-family: "Trebuchet MS", serif;
+	background-color: white;
+	font-size: 1.3em;
+	padding-left: 0px;
+}
