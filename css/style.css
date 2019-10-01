@@ -1,7 +1,7 @@
 body 
 {
 	font-family : Verdana;
-	background-color: #37474F;
+	background-color: #191919;
 }
 
 .col-auto 
@@ -13,24 +13,24 @@ body
   max-width: none;
 }
 
-[class*="col"], footer, aside 
+.container
 {
-  background-color: transparent;
-  line-height: 10px;
+	max-width: 1190px;
 }
 
-#container
+.row
 {
-	max-width: 940px;
+	padding: 0px 0px 0px 0px;
 }
-
 .photo
 {
-	padding-top: 65px;
-	padding-bottom: 45px;
-	line-height: 330px;
-	background-color: #5C6BC0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 310px;
+	width: 385px;
+	background-color: #FECA07;
 	text-align: center;
+	border-left: 2px groove grey;
 }
 
 .titre
@@ -40,52 +40,79 @@ body
 
 .profession
 {
-	padding-left: 15%;
+	padding-left: 8%;
+	position: relative;
+	color: #404040;
+	font-family: Arial, serif;
+	font-size: 26px;
 	font-weight: bold;
-	line-height: 3px;
-	font-size: 1em;
+}
+
+.profession:after
+{
+	width: 40px;
+	height: 3px;
+	background-color: #FECA07;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 8%;
+}
+
+.ligne
+{
+	line-height: 50px;
 }
 
 .bordure
 {
-	margin-left: 15%;
+	margin-left: 8%;
 	width: 40px;
 	border-width: 2px;
-	border-color: #5C6BC0;
+	border-color: #FECA07;
 }
 
 .separation
 {
 	background-color: white;
-	line-height: 1px;
+	vertical-align: baseline;
 }
 
 .aside /*intitulés aside*/
 {
 	text-align: center;
-	font-size: 2.5em;
-	color: #5C6BC0;
-	background-color: #212121;
-	padding-top: 20px;
-	line-height: 60px;
-
-}
+	vertical-align: middle;
+	font-size: 1.5em;
+	color:#FECA07;
+	line-height: 50px;
+	border-left: 2px groove grey;
+	background-color: #404040;
+	}
 
 .aside2 /*bloc aside bleus*/
 {
-	background-color: #5C6BC0;
+	background-color: #FECA07;
+	border-left: 2px groove grey;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
-
-
-.propos
+.col-1
 {
-	margin-top: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .col-2
 {
 	background-color: white;
+	line-height: 30px;
+}
+
+.col-3
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .col-8
@@ -93,15 +120,22 @@ body
 	background-color: white;
 }
 
+.col-12
+{
+	line-height: 4px;
+}
+
 .intitulé
 {
 	background-color: white;
-	padding-top: 15px;
+	line-height: 30px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 .loisirs
 {
-	color: #212121;
+	color: #404040;
 	padding-left: 17%;
 	padding-top: 25px;
 }
@@ -109,6 +143,9 @@ body
 .dates
 {
 	margin-top: 0px;
+	font-size: 0.8em;
+	color: #323232;
+	font-weight: bold;
 }
 
 .far /*icone de puce actuelle Font Awesome*/
@@ -135,22 +172,24 @@ body
 
 i /*scripts font awesome*/
 {
-	padding-top: 8px;
-	font-size: 35px;
-	color: #5C6BC0;
+	font-size: 30px;
+	color: #FECA07;
+	line-height: 30px
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 strong
 {
-	color: #5C6BC0;
+	color: #FECA07;
 }
 
 h1
 {
-	padding-top: 160px;
-	padding-left: 15%;
-	font-family: 'Alex Brush', cursive;
-	font-size: 4em; 
+	padding-top: 100px;
+	padding-left: 8%;
+	font-family: 'Segoe UI Light', serif;
+	font-size: 61px; 
 }
 
 h2
@@ -159,28 +198,38 @@ h2
 	font-weight: bold;
 }
 
+h3
+{
+	margin-top: 15px;
+	color: #323232;
+	font-size: 22px;
+}
+
 
 
 hr
 {
-	border-color: #5C6BC0; 
+	border-color: #FECA07; 
 	border-width: 2px;
+	margin-top: 1px;
+	margin-bottom: 1px;
 }
 
 p
 {
 	line-height: 20px;
 	font-size: 0.8em;
-	margin-top: 10px;
-	padding-left: 10px;
-	padding-bottom: 15px;
-	
+	color: #323232;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	margin-bottom: 0px;
 }
 
 mark
 {
 	font-family: "Trebuchet MS", serif;
 	background-color: white;
-	font-size: 1.3em;
+	font-size: 18px;
 	padding-left: 0px;
+	color: #323232;
 }
