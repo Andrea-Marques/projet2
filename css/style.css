@@ -36,6 +36,7 @@ body
 .titre
 {
 	background-color: white;
+	padding-bottom: 25px;
 }
 
 .profession
@@ -60,6 +61,15 @@ body
 	line-height: 1px;
 }
 
+.mobile
+{
+	border-color: white; 
+	border-width: 2px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+
 .aside /*intitulés aside*/
 {
 	text-align: center;
@@ -71,7 +81,7 @@ body
 
 }
 
-.aside2 /*bloc aside bleus*/
+.aside2 /*bloc aside jaune*/
 {
 	background-color: #5C6BC0;
 }
@@ -80,15 +90,32 @@ body
 
 .propos
 {
+<<<<<<< Updated upstream
 	margin-top: 25px;
+=======
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: white;
+>>>>>>> Stashed changes
 }
 
 .col-2
 {
 	background-color: white;
+<<<<<<< Updated upstream
+=======
+	line-height: 30px;
 }
 
-.col-8
+.col-3
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: white;
+>>>>>>> Stashed changes
+}
+
+.col
 {
 	background-color: white;
 }
@@ -132,6 +159,7 @@ body
 {
 	font-size: 1.3em;
 }
+
 
 i /*scripts font awesome*/
 {
@@ -183,4 +211,45 @@ mark
 	background-color: white;
 	font-size: 1.3em;
 	padding-left: 0px;
+<<<<<<< Updated upstream
 }
+=======
+	color: #323232;
+}
+
+/*smartphone*/
+@media (min-width: 576px) 
+{
+  .container 
+  {
+    width: 540px;
+  }
+}
+
+/*tablette*/
+@media (min-width: 768px) 
+{
+  .container 
+  {
+    width: 720px;
+  }
+}
+
+/*grand écran*/
+@media (min-width: 992px) 
+{
+  .container 
+  {
+    width: 960px;
+  }
+}
+
+/* Très grand écran */
+@media (min-width: 1200px) 
+{
+  .container 
+  {
+    max-width: 1140px;
+  }
+}
+>>>>>>> Stashed changes
