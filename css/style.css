@@ -4,6 +4,12 @@ body
 	background-color: #191919;
 }
 
+@font-face
+{
+	font-family: Segoeuil;
+	src:url('segoeuil.ttf') format('truetype');
+}
+
 .col-auto 
 {
   -webkit-box-flex: 0;
@@ -22,6 +28,7 @@ body
 {
 	padding: 0px 0px 0px 0px;
 }
+
 .photo
 {
 	padding-top: 5px;
@@ -37,28 +44,20 @@ body
 {
 	background-color: white;
 	padding-bottom: 25px;
+	text-align: center;
 }
 
 .profession
 {
-	padding-left: 8%;
+	
 	position: relative;
 	color: #404040;
 	font-family: Arial, serif;
 	font-size: 26px;
 	font-weight: bold;
+	text-align: center;
 }
 
-.profession:after
-{
-	width: 40px;
-	height: 3px;
-	background-color: #FECA07;
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 8%;
-}
 
 .ligne
 {
@@ -77,32 +76,24 @@ body
 {
 	background-color: white;
 	vertical-align: baseline;
+	line-height: 4px;
 }
-
-.mobile
-{
-	border-color: white; 
-	border-width: 2px;
-	margin-top: 1px;
-	margin-bottom: 1px;
-}
-
 
 .aside /*intitulés aside*/
 {
 	text-align: center;
 	vertical-align: middle;
 	font-size: 1.5em;
-	color:#FECA07;
+	color: #FECA07;
 	line-height: 50px;
-	border-left: 2px groove grey;
+	border-left: 2px solid rgba(250,250,250,0.3);
 	background-color: #404040;
 	}
 
 .aside2 /*bloc aside jaune*/
 {
 	background-color: #FECA07;
-	border-left: 2px groove grey;
+	border-left: 2px solid rgba(250,250,250,0.3);
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
@@ -120,6 +111,10 @@ body
 	line-height: 30px;
 }
 
+.col-4
+{
+	padding-top: 15px;
+}
 
 .col-3
 {
@@ -135,7 +130,7 @@ body
 
 .col-12
 {
-	line-height: 4px;
+	
 }
 
 .intitulé
@@ -146,19 +141,22 @@ body
 	margin-bottom: 0px;
 }
 
+.dates
+	{
+		color: #FECA07;
+		font-size: 0.8em;
+		text-shadow: -1px -1px 0 #5a442d,  
+    				 1px -1px 0 #5a442d,
+    				 -1px 1px 0 #5a442d,
+    				 1px 1px 0 #5a442d;
+
+	}
+
 .loisirs
 {
 	color: #404040;
 	padding-left: 17%;
 	padding-top: 25px;
-}
-
-.dates
-{
-	margin-top: 0px;
-	font-size: 0.8em;
-	color: #323232;
-	font-weight: bold;
 }
 
 .far /*icone de puce actuelle Font Awesome*/
@@ -188,7 +186,7 @@ i /*scripts font awesome*/
 {
 	font-size: 30px;
 	color: #FECA07;
-	line-height: 30px
+	line-height: 30px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 }
@@ -200,9 +198,7 @@ strong
 
 h1
 {
-	padding-top: 100px;
-	padding-left: 8%;
-	font-family: 'Segoe UI Light', serif;
+	font-family: 'Segoeuil', serif;
 	font-size: 61px; 
 }
 
@@ -255,6 +251,15 @@ mark
   {
     width: 540px;
   }
+   h1
+  {
+  	text-align: center;
+  }
+  .profession
+  {
+  	text-align: center;
+  }
+  
 }
 
 /*tablette*/
@@ -264,23 +269,107 @@ mark
   {
     width: 720px;
   }
-}
+  .dates
+	{
+		color: #323232;
+		font-size: 0.8em;
+		font-weight: bold;
+		text-shadow: none;
+	}
+  h1
+  {
+  	padding-top: 60px;
+  	padding-left: 8%;
+  	text-align: left;
+  }
+  .profession
+  {
+  	padding-left: 8%;
+  	text-align: left;
+  }
+  .profession:after
+	{
+		width: 40px;
+		height: 3px;
+		background-color: #FECA07;
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 8%;
+	}
+	}
 
 /*grand écran*/
 @media (min-width: 992px) 
 {
   .container 
+  	{
+    	width: 960px;
+  	}
+  	.dates
+	{
+		color: #323232;
+		font-size: 0.8em;
+		font-weight: bold;
+		text-shadow: none;
+	}
+   h1
+  	{
+  		padding-left: 8%;
+  		padding-top: 80px;
+  		text-align: left;
+  	}
+  	.profession
   {
-    width: 960px;
+  	padding-left: 8%;
+  	text-align: left;
   }
+  .profession:after
+	{
+		width: 40px;
+		height: 3px;
+		background-color: #FECA07;
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 8%;
+	}
+	
 }
 
 /* Très grand écran */
 @media (min-width: 1200px) 
 {
   .container 
+  	{
+    	max-width: 1140px;
+  	}
+  	.dates
+	{
+		color: #323232;
+		font-size: 0.8em;
+		font-weight: bold;
+		text-shadow: none;
+	}
+   h1
+  	{
+  		padding-left: 8%;
+  		padding-top: 100px;
+  		text-align: left;
+  	}
+  	.profession
   {
-    max-width: 1140px;
+  	padding-left: 8%;
+  	text-align: left;
   }
-}
-
+  .profession:after
+	{
+		width: 40px;
+		height: 3px;
+		background-color: #FECA07;
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 8%;
+	}
+	}
